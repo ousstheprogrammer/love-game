@@ -1,0 +1,57 @@
+body {
+/*    background-image: url('images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    margin: 0;
+}
+
+
+
+#position {
+    position: absolute;
+    top: 180px;
+    left: 500px;
+}
+
+.win, .dead {
+    display: none;
+}
+
+.dead {
+    padding: 60px 10px;
+}
+
+#menuBg {
+    position: absolute;
+    top: 450px;
+    left: 290px;
+}
+
+#hand, #yes, #no {
+    z-index: 2;
+}
+
+#no {
+    position: absolute;
+    left: 1000px;
+    top: 530px;
+}
+
+#yes {
+    position: absolute;
+    left: 490px;
+    top: 530px;
+}
+
+#hand {
+    position: absolute;
+    top: 530px;
+    left: 575px;
+    /*415px for Yes*/
+}
+
+.player {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
